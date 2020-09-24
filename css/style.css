@@ -1,0 +1,50 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: greenyellow;
+}
+.header{
+    height: 56px;
+    text-align: center;
+
+}
+.main-body{
+    text-align: center;
+}
+.margin {
+    margin:10px;
+}
+.font{
+    font: italic small-caps bold 15px  Arial;
+}
+.header-font{
+    font: italic small-caps bold 30px  Arial;
+}
+@media only screen and (max-width: 700px) {
+    .droptarget{
+        border: 1px solid;
+        width: 80%;
+        padding: 13px;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        background-color: #cc66ff;
+        font: italic small-caps bold 20px  Arial;
+    }
+  }
+@media only screen and (min-width: 700px) {
+.droptarget{
+    border: 1px solid;
+    width: 20%;
+    padding: 13px;
+    margin: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #ff9966;
+    font: italic small-caps bold 15px  Arial;
+}
+}
